@@ -1,0 +1,79 @@
+/* THIS IS THE CSS ADDED DUE TO CONFLICTS */
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+span {
+	text-shadow: 1px 1px 1px black;
+}
+
+section {
+	min-height: 78vh !important;
+}
+
+.top-header {
+	border: 10px double;
+}
+
+.tm-copyright-text {
+	display: inline-block;
+	padding: 15px 30px !important;
+	background-color: rgba(0, 0, 0, 0.25);
+	width: 80% !important;
+}
+
+/* ABOUT SECTION IMAGES */
+.owners {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.owners > div {
+	height: 150px;
+	width: 200px;
+}
+
+/* CONTACT SECTION  */
+.ImagePhoto {
+    background-image: url("/assets/images/eddie_images/top_of_car_6.jpeg");
+    background-repeat: no-repeat;
+		background-position: center;
+		border: 5px double;
+		width: 100%;
+		height: 500px;
+		margin-top: 2em;
+}
+
+/* ///////// MEDIA QUERY ///////// */
+@media (max-width: 800px) {
+	/* MENU */
+	.menu .author-content {
+		margin: 20px 0px;
+	}
+
+	.menu .social-network {
+		margin-top: 20px;
+	}
+
+	.menu .copyright-text {
+		position: relative;
+		margin-top: 20px;
+	}
+
+	/* ABOUT SECTION IMAGES */
+	.owners {
+		display: flex;
+		flex-flow: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.owners > div {
+		height: 350px;
+		width: 350px;
+	}
+}
