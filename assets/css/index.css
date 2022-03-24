@@ -76,4 +76,9 @@ section {
 		height: 350px;
 		width: 350px;
 	}
+
+	.container {
+    margin: 0 auto;
+    padding-top: 0;
+	}
 }
