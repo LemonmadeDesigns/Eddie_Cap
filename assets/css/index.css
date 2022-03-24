@@ -83,6 +83,7 @@ section {
 	.owners > div {
 		height: 350px;
 		width: 350px;
+		padding: 2em 3em;
 	}
 
 	.container {
