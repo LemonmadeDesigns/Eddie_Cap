@@ -90,4 +90,8 @@ section {
     margin: 0 auto;
     padding-top: 0;
 	}
+
+	#page-wrapper > section.section.about-us {
+    padding-bottom: 0;
+	}
 }
