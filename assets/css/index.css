@@ -39,7 +39,7 @@ section {
 
 /* CONTACT SECTION  */
 .ImagePhoto {
-    background-image: url("/assets/images/eddie_images/top_of_car_6.jpeg");
+    background-image: url("../../assets/images/eddie_images/top_of_car_6.png");
     background-repeat: no-repeat;
 		background-position: center;
 		border: 5px double;
