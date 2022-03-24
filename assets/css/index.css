@@ -13,6 +13,14 @@ section {
 	min-height: 78vh !important;
 }
 
+#page-wrapper > section.section.about-me > div {
+	padding-top: 5em;
+}
+
+#page-wrapper > section.section.about-us {
+	padding-bottom: 14em;
+}
+
 .top-header {
 	border: 10px double;
 }
