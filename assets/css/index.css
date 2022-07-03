@@ -45,6 +45,11 @@ section {
 	width: 150px;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 /* CONTACT SECTION  */
 .ImagePhoto {
     background-image: url("../../assets/images/eddie_images/top_of_car_6.png");
